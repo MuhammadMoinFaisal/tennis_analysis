@@ -9,3 +9,22 @@ Here is a screenshot from one of the output videos:
 
 ![Screenshot](output_videos/screenshot.jpg)
 
+## Models Used
+* YOLOv12 for player detection and tracking
+* Fine-Tuned YOLOv5 for tennis ball detection
+* Fine-Tuned ResNet-50 to detect tennis court keypoints
+
+* Trained YOLOV5 model: https://drive.google.com/file/d/1UZwiG1jkWgce9lNhxJ2L0NVjX1vGM05U/view?usp=sharing
+* Trained tennis court key point detection model: https://drive.google.com/file/d/1QrTOF1ToQ4plsSZbkBs3zOLkVt3MBlta/view?usp=sharing
+
+## Training
+* Tennis ball detetcor with YOLOv5: notebooks/tennis_ball_detector_training_yolov5.ipynb
+* Tennis court keypoints detection: notebooks/tennis_courts_keypoints_detector_50.ipynb
+
+## Requirements
+* python3.11
+* ultralytics
+* pytroch
+* numpy 
+* opencv
+
