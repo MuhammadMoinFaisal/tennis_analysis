@@ -14,9 +14,8 @@ Here is a screenshot from one of the output videos:
 * Fine-Tuned YOLOv5 for tennis ball detection
 * Fine-Tuned ResNet-50 to detect tennis court keypoints
 
-* Trained YOLOV5 model: https://drive.google.com/file/d/1UZwiG1jkWgce9lNhxJ2L0NVjX1vGM05U/view?usp=sharing
-* Trained tennis court key point detection model: https://drive.google.com/file/d/1QrTOF1ToQ4plsSZbkBs3zOLkVt3MBlta/view?usp=sharing
-
+* Trained YOLOV5 model for Tennis Ball Detection: https://drive.google.com/file/d/1YGcN5Nmqsg0j0LN1p-I0dcH1ZCXNa2cs/view?usp=sharing
+* Trained tennis court key point detection model: https://drive.google.com/file/d/107F8wEAQa3jhzDKADDmqMry00mLfQ2rt/view?usp=sharing
 ## Training
 * Tennis ball detetcor with YOLOv5: notebooks/tennis_ball_detector_training_yolov5.ipynb
 * Tennis court keypoints detection: notebooks/tennis_courts_keypoints_detector_50.ipynb
